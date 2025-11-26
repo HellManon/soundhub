@@ -12,33 +12,33 @@ Développé avec une architecture propre (hexagonale), performante et entièreme
 </div>
 📚 Sommaire
 
-#Présentation
+# Présentation
 
-#Fonctionnalités principales
+# Fonctionnalités principales
 
-#Stack technique
+# Stack technique
 
-#Architecture (Hexagonale)
+# Architecture (Hexagonale)
 
-#Structure du projet
+# Structure du projet
 
-#Installation & Lancement
+# Installation & Lancement
 
-#Variables d’environnement
+# Variables d’environnement
 
-#Scripts & Commandes
+# Scripts & Commandes
 
-#Tests
+# Tests
 
-#Documentation API
+# Documentation API
 
-#Roadmap
+# Roadmap
 
 Contribuer
 
 Licence
 
-#🎵 Présentation
+# 🎵 Présentation
 
 SoundHub est un hub complet pour les créateurs de musique.
 L’objectif est de centraliser plusieurs outils essentiels :
@@ -55,7 +55,7 @@ Création d’une communauté active
 
 Le projet est pensé pour évoluer vers une application mobile (React Native), une API modulaire et un panel administrateur complet.
 
-#⭐ Fonctionnalités principales
+# ⭐ Fonctionnalités principales
 🎧 Module Musical
 
 Upload de morceaux (WAV / MP3)
@@ -66,7 +66,7 @@ Versions multiples d’un même track
 
 Lecteur audio intégré
 
-#📆 Agenda / Événements
+# 📆 Agenda / Événements
 
 Création d’événements (DJ set, concert, studio)
 
@@ -74,7 +74,7 @@ Rappels automatiques (emails)
 
 Vue calendrier
 
-#📰 Mini Réseau Social
+# 📰 Mini Réseau Social
 
 Publication de posts (texte, image, audio)
 
@@ -82,7 +82,7 @@ Like / Commentaire
 
 Fil d’actualité
 
-#🎓 Formations
+# 🎓 Formations
 
 Suivi de cours
 
@@ -90,11 +90,11 @@ Progression utilisateur
 
 Modules organisés
 
-#🔍 Recherche
+# 🔍 Recherche
 
 Résultats mixtes : tracks / users / events / posts
 
-#🛡 Authentification
+# 🛡 Authentification
 
 Inscription / Connexion JWT
 
@@ -141,7 +141,7 @@ Linters & Formatters
 
 Swagger & ReDoc pour la documentation API
 
-#🧱 Architecture (Hexagonale)
+# 🧱 Architecture (Hexagonale)
 
 L’API Django suit une architecture hexagonale parfaitement modulaire :
 
@@ -217,7 +217,7 @@ frontend/
 │   └── styles/
 └── public/
 
-#🚀 Installation & Lancement
+# 🚀 Installation & Lancement
 1️⃣ Cloner le repo
 git clone https://github.com/<username>/soundhub.git
 cd soundhub
@@ -238,7 +238,7 @@ API → http://localhost:8000
 
 Frontend → http://localhost:5173
 
-#🔧 Variables d’environnement
+# 🔧 Variables d’environnement
 Backend — .env
 SECRET_KEY=your_secret_key_here
 DEBUG=True
@@ -250,7 +250,7 @@ AWS_BUCKET_NAME=
 Frontend — .env
 VITE_API_URL=http://localhost:8000/api
 
-#🧪 Tests
+# 🧪 Tests
 Backend
 pytest
 coverage run -m pytest
@@ -259,7 +259,7 @@ coverage report
 Frontend
 npm test
 
-#📘 Documentation API
+# 📘 Documentation API
 
 Swagger UI :
 ➡️ /api/docs/swagger/
@@ -267,7 +267,7 @@ Swagger UI :
 ReDoc :
 ➡️ /api/docs/redoc/
 
-#🗺 Roadmap
+# 🗺 Roadmap
 v1 — MVP
 
 Auth + profil ✔
@@ -300,7 +300,7 @@ Mode hors-ligne
 
 Sync automatique
 
-#🤝 Contribuer
+# 🤝 Contribuer
 
 Les contributions sont les bienvenues !
 Merci de respecter :
