@@ -175,7 +175,7 @@ Modularité parfaite pour une future version mobile
 
 Adapters interchangeables (ex : changer S3 → Cloudflare R2 sans toucher au domain)
 
-#📁 Structure du projet
+# 📁 Structure du projet
 Backend (Django)
 backend/
 │
